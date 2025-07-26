@@ -16,10 +16,10 @@ INDEX_PATH = "faiss_index.bin"
 CHUNKS_PATH = "text_chunks.pkl"
 RAW_TEXT_PATH = "raw_text.txt"  # File to save the extracted text
 EMBEDDING_MODEL = 'paraphrase-multilingual-mpnet-base-v2'
-GENERATIVE_MODEL = 'gemini-2.5-flash' # Using Gemini 1.5 Flash
+GENERATIVE_MODEL = 'gemini-2.5-flash' # Using Gemini 2.5 Flash
 # IMPORTANT: You must configure your Google API key below
 # You can get one here: https://aistudio.google.com/app/apikey
-API_KEY = "AIzaSyDynY3P-ZbVoih47AF0bgGOdB8tOKh8fI4" # Replace with your actual API key
+API_KEY = "YOUR_GEMINI_API_KEY" # Replace with your actual API key
 
 # --- Main Execution ---
 if __name__ == "__main__":
