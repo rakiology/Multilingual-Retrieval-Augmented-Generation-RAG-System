@@ -21,7 +21,7 @@ EMBEDDING_MODEL = 'sentence-transformers/paraphrase-multilingual-mpnet-base-v2'
 GENERATIVE_MODEL = 'gemini-2.5-flash' # Using Gemini 1.5 Flash
 # IMPORTANT: You must configure your Google API key below
 # You can get one here: https://aistudio.google.com/app/apikey
-API_KEY = "AIzaSyDynY3P-ZbVoih47AF0bgGOdB8tOKh8fI4" # Replace with your actual API key
+API_KEY = "YOUR_API_KEY_GEMINI" # Replace with your actual API key
 
 # Global variables to store loaded models and data
 index = None
